@@ -1,0 +1,15 @@
+<div class="row text-center">
+   <div class="text-center w-100">
+      <h4>Demo chart application with dual axis direction line</h4>
+   </div>   
+</div>
+
+<div style="width: 70%">
+   <canvas baseChart 
+         [chartType]="'line'" 
+         [datasets]="chartData" 
+         [labels]="chartLabels" 
+         [options]="chartOptions"
+         [legend]="true">
+   </canvas>
+</div>
